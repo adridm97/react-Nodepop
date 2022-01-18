@@ -1,0 +1,38 @@
+.adContainer {
+  margin-top: 10px;
+  box-shadow: 2px 2px 10px #666;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr repeat(4, 1fr);
+  padding: 15px;
+  border-radius: 15px;
+}
+.adName {
+  font-size: 2rem;
+  border-bottom: 1px solid #eceff1;
+  line-height: 1.2em;
+  margin: 0;
+  grid-row: 3;
+  grid-column: 1 / 2;
+}
+.adPrice {
+  grid-row: 2;
+  grid-column: 1;
+}
+.sale {
+  grid-row: 4;
+  grid-column: 1;
+  border-bottom: 1px solid #eceff1;
+  line-height: 1.2em;
+}
+.tags {
+  grid-row: 4;
+  grid-column: 2;
+  border-bottom: 1px solid #eceff1;
+  line-height: 1.2em;
+}
+.adButton {
+  margin-top: 10px;
+  grid-row: 5;
+  height: min-content;
+}
